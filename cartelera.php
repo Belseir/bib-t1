@@ -19,9 +19,11 @@ echo '
 	  <H4>Cartelera</H4>
 	  <ul class="nav nav-pills nav-stacked">';
 
-foreach($cats as $cat){
-echo '<li><a href="#"><span onclick="cargar(\'#capa_C\',\'mostrar_cartelera.php?b='.$cat['categoria'].'\')">'.$cat['categoria'].'</span></a></li>'  ; $cat['categoria'];
-}	  
+		foreach($cats as $cat){
+			if(!($cat['categoria'] == "Ayuda")) {
+				echo '<li><a href="#"><span onclick="cargar(\'#capa_C\',\'mostrar_cartelera.php?b='.$cat['categoria'].'\')">'.$cat['categoria'].'</span></a></li>'  ; $cat['categoria'];
+			}
+		}	  
 	   
 		echo '           
 	  </ul>
