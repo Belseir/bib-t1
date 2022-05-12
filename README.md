@@ -4,9 +4,9 @@ Repositorio para la tarea de la materia PWD
 
 ## Tickets:
 
-⬜️ Eliminar archivos de Bootstrap y JQuery locales. 
+✅ ~~Eliminar archivos de Bootstrap y JQuery locales.~~ 
 <br> 
-⬜️ Incluir Bootstrap y JQuery utilizando CDN. 
+✅ ~~Incluir Bootstrap y JQuery utilizando CDN.~~
 <br>
 ⬜️ Crear una o varias carpetas para alojar archivos locales
 <br>
