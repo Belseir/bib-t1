@@ -16,7 +16,7 @@ Repositorio para la tarea de la materia PWD
 <br>
 ⬜️ Agregar dos nuevos diseños a las plantillas de la cartelera.
 <br>
-⬜️ Agregar al menú de acceso público, una nueva opción (Ayuda), y una nueva categoría de carteles(Ayuda) que solo se cargan cuando se accede a la nueva opción del menú.
+✅ ~~Agregar al menú de acceso público, una nueva opción (Ayuda), y una nueva categoría de carteles(Ayuda) que solo se cargan cuando se accede a la nueva opción del menú.~~
 <br>
 ⬜️ En la sección de publicaciones digitales ya existente agregar la posibilidad de vista previa para material de distinto tipo como ser audios , videos.
 <br>
