@@ -7,21 +7,16 @@ session_start();
    <title>BASES PWD</title>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" >
-   <script src="bootstrap/js/jquery-3.1.0.min.js"></script>
-   <script src="bootstrap/js/bootstrap.min.js"></script>
+
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js" integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
    <script src="bootstrap/js/funciones_gral.js"></script>
    <link rel="stylesheet" href="bootstrap/css/style_chat.css" media="all"/>	
-   <link rel="stylesheet" href="bootstrap/ui/jquery-ui.css">
    <link rel="stylesheet" href="bootstrap/cust.css">
-   <script src="bootstrap/ui/jquery-ui.js"></script>
      
-   <!-----https://sourcecodesite.com/how-to-create-chat-system-in-php-using-ajax-2.html--->
-   <!--Include Custom CSS-->
-   <!---
-   <script src="bootstrap/js/funciones_e.js"></script>
-   <script src="bootstrap/js/funciones_d.js"></script>
-   --->
+
    <script>
    function cargar(div,desde)
    {
@@ -57,7 +52,6 @@ pre {
 </style>
  </head>
  
- <!-----body style="padding: 0px 0px 0px 0px;background-image: url(images/b_bkg_4.jpg);" onload="cargar('#capa_P','txts/init_1.html');cargar('#capa_C','txts/init_2.html')"---->
  <body style="padding: 0px 0px 0px 0px;"  >
   <div id="background"></div>
  <div class="container-fluid" >
