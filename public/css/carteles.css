@@ -6,7 +6,6 @@ img {
 }
 
 
-
 .plantilla0{
     font-family: Arial;
 	color: rgb(80, 80, 80);
@@ -20,31 +19,34 @@ img {
     word-spacing: 0.08em;
     line-height: 18px;
 }
+
 .plantilla0 h1 {
      color: black;
 }
+
 .plantilla0 a {
      color: white;
 	 padding: 10px;
 	 background-color:rgba(100, 100,255, 0.9);
 }
+
 .plantilla0 header {
-height: 80px;
-padding-top: 10px;
-background-color:rgba(255,255,255, 0.1);
-margin-top:20px;
-margin-bottom:20px;
-text-align: center;
+    height: 80px;
+    padding-top: 10px;
+    background-color:rgba(255,255,255, 0.1);
+    margin-top:20px;
+    margin-bottom:20px;
+    text-align: center;
 }
 
 .plantilla0 footer {
-background-color:rgba(80,80,80, 0.9);
-margin-left: 20px;
-margin-right: 20px;
-margin-top:50px;
-margin-bottom:50px;
-text-align: center;
-color: rgb(200, 200, 200);
+    background-color:rgba(80,80,80, 0.9);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top:50px;
+    margin-bottom:50px;
+    text-align: center;
+    color: rgb(200, 200, 200);
 }
 
 
@@ -70,9 +72,11 @@ color: rgb(200, 200, 200);
     word-spacing: 0.08em;
     line-height: 18px;
 }
+
 .plantilla1 h1 {
     color: rgba(255, 255,255, 0.8);;
 }
+
 .plantilla1 a {
      color:  blue;
 	 padding: 10px;
@@ -80,21 +84,21 @@ color: rgb(200, 200, 200);
 }
 
 .plantilla1 header {
-height: 120px;
-padding-top: 10px;
-background-color:rgba(120, 120, 120, 0.3);
-margin-top:30px;
-margin-bottom:30px;
-text-align: center;
+    height: 120px;
+    padding-top: 10px;
+    background-color:rgba(120, 120, 120, 0.3);
+    margin-top:30px;
+    margin-bottom:30px;
+    text-align: center;
 }
 
 .plantilla1 footer {
-background-color:rgba(120, 120, 120, 0.9);
-margin-left: 20px;
-margin-right: 20px;
-margin-top:50px;
-margin-bottom:50px;
-text-align: center;
+    background-color:rgba(120, 120, 120, 0.9);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top:50px;
+    margin-bottom:50px;
+    text-align: center;
 }
 
 .plantilla1 article {
@@ -102,9 +106,6 @@ text-align: center;
     padding: 1em;
     overflow: hidden;
 }
-
-
-
 
 
 .plantilla2{
@@ -120,9 +121,11 @@ text-align: center;
     word-spacing: 0.08em;
     line-height: 14px;
 }
+
 .plantilla2 h1 {
      color: rgb(60, 60, 60);
 }
+
 .plantilla2 a {
      color:  rgb(240, 240, 240);
 	 margin: 4px;
@@ -131,24 +134,23 @@ text-align: center;
 }
 
 .plantilla2 header {
-height: 100px;
-background-color:rgba(200,200,200,0.4);
-margin-top:40px;
-margin-bottom:40px;
-padding: 4px;
-padding-top: 10px;
-text-align: center;
+    height: 100px;
+    background-color:rgba(200,200,200,0.4);
+    margin-top:40px;
+    margin-bottom:40px;
+    padding: 4px;
+    padding-top: 10px;
+    text-align: center;
 }
 
 .plantilla2 footer {
-background-color:rgb(200,200,200);
-margin-left: 10px;
-margin-right: 10px;
-margin-top:10px;
-margin-bottom:10px;
-text-align: center;
+    background-color:rgb(200,200,200);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top:10px;
+    margin-bottom:10px;
+    text-align: center;
 }
-
 
 .plantilla2 article {
     color:  rgb(110, 110, 110);
@@ -156,6 +158,7 @@ text-align: center;
     padding: 1em;
     overflow: hidden;
 }
+
 
 .plantilla3{
     color:  rgb(235, 235, 235);
@@ -170,9 +173,11 @@ text-align: center;
     word-spacing: 0.08em;
     line-height: 18px;
 }
+
 .plantilla3 h1 {
     color: Navy;
 }
+
 .plantilla3 a {
      margin-left: 10px;
      color:  Navy;
@@ -181,24 +186,22 @@ text-align: center;
 }
 
 .plantilla3 header {
-height: 100px;
-background-color:rgba(40,180,180, 0.3);
-padding-top: 10px;
-margin-top:30px;
-margin-bottom:30px;
-text-align: center;
+    height: 100px;
+    background-color:rgba(40,180,180, 0.3);
+    padding-top: 10px;
+    margin-top:30px;
+    margin-bottom:30px;
+    text-align: center;
 }
 
 .plantilla3 footer {
-background-color:rgba(0,255,255, 0.9);
-margin-left: 20px;
-margin-right: 20px;
-margin-top:50px;
-margin-bottom:50px;
-text-align: center;
+    background-color:rgba(0,255,255, 0.9);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top:50px;
+    margin-bottom:50px;
+    text-align: center;
 }
-
-
 
 .plantilla3 article {
     margin-left: 120px;
@@ -231,28 +234,141 @@ text-align: center;
 }
 
 .plantilla4 header {
-height: 60px;
-background-color:rgba(0,255,255, 0.5);
-margin-top:50px;
-margin-bottom:50px;
-padding: 4px;
-padding-top: 10px;
-text-align: center;
+    height: 60px;
+    background-color:rgba(0,255,255, 0.5);
+    margin-top:50px;
+    margin-bottom:50px;
+    padding: 4px;
+    padding-top: 10px;
+    text-align: center;
 }
 
 .plantilla4 footer {
-background-color:rgba(0,255,255, 0.9);
-margin-left: 20px;
-margin-right: 20px;
-margin-top:50px;
-margin-bottom:50px;
-text-align: center;
+    background-color:rgba(0,255,255, 0.9);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top:50px;
+    margin-bottom:50px;
+    text-align: center;
 }
-
-
 
 .plantilla4 article {
     margin-left: 120px;
     padding: 1em;
+    overflow: hidden;
+}
+
+
+.plantilla5{
+    font-family: Arial;
+	color: rgb(80, 80, 80);
+    width: 600px;
+    margin: 20px;
+    padding: 10px;
+    border: 0x solid #b4b4b4;
+    font-family: verdana;
+    background-color:rgba(99, 99, 99, 0.8);
+    letter-spacing: 0px;
+    word-spacing: 0.08em;
+    line-height: 18px;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.plantilla5 h1 {
+    font-weight: bold;
+    color: black;
+}
+
+.plantilla5 a {
+     color: white;
+	 padding: 10px;
+	 background-color:rgba(100, 100,255, 0.9);
+}
+
+.plantilla5 header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 80px;
+    background-color:rgb(255, 255, 255);
+    margin: 20px 0;
+}
+
+.plantilla5 footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    color: rgb(200, 200, 200);
+    background-color:rgba(80,80,80, 0.9);
+    margin-top: 15px;
+}
+
+.plantilla5 article {
+    padding: 1em;
+    overflow: hidden;
+    color: rgba(255, 255, 255, 0.8);
+	background-color:rgb(100, 100, 100);
+    margin-bottom: 15px;
+}
+
+
+.plantilla6 {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    color:  rgb(235, 235, 235);
+    width: 600px;
+    border-radius: 10px;
+
+    font-family: Sans-serif, Arial;
+
+    background-color:rgba(100, 100, 100, 0.9);
+    letter-spacing: 0px;
+    word-spacing: 0.08em;
+    line-height: 18px;
+}
+
+.plantilla6 .row {
+    padding: 15px;
+}
+
+.plantilla6 h1 {
+    color: rgb(255, 255, 255);
+}
+
+.plantilla6 a {
+     color:  Navy;
+	 background-color:rgba(100, 100, 100, 0.9);
+}
+
+.plantilla6 header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 10px 10px 0 0;
+    height: 80px;
+    background-color:rgb(50, 50, 50);
+}
+
+.plantilla6 footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 60px;
+    background-color:rgb(50,50,50);
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+
+.plantilla6 article {
+    padding: 15px;
     overflow: hidden;
 }
