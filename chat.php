@@ -1,7 +1,12 @@
 <br>
 <?php
 
-include("../libreria/db_chat.php");
+include("../libreria/motor.php");
+
+function formatDate($date)
+{
+	return date('g:i a', strtotime($date));
+}
 
 $query = "SELECT * FROM ( SELECT * FROM chat order by id DESC LIMIT 3) sub order by id ASC";
 $run = $con->query($query);

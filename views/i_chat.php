@@ -22,7 +22,7 @@ echo '
 ';
 
 include("menu_bs.php");
-include("../libreria/db_chat.php");
+include("../libreria/motor.php");
 
 ?>
 <?php
