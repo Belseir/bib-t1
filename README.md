@@ -12,7 +12,7 @@ Repositorio para la tarea de la materia PWD
 <br>
 ✅ ~~Poner un logo en el menú.~~
 <br>
-⬜️ Unificar el archivo config.php, para que los datos de conexión a MySQL se encuentren en un único archivo.
+✅ ~~Unificar el archivo config.php, para que los datos de conexión a MySQL se encuentren en un único archivo.~~
 <br>
 ⬜️ Agregar dos nuevos diseños a las plantillas de la cartelera.
 <br>
