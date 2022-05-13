@@ -14,7 +14,7 @@ Repositorio para la tarea de la materia PWD
 <br>
 ✅ ~~Unificar el archivo config.php, para que los datos de conexión a MySQL se encuentren en un único archivo.~~
 <br>
-⬜️ Agregar dos nuevos diseños a las plantillas de la cartelera.
+✅ ~~Agregar dos nuevos diseños a las plantillas de la cartelera.~~
 <br>
 ✅ ~~Agregar al menú de acceso público, una nueva opción (Ayuda), y una nueva categoría de carteles(Ayuda) que solo se cargan cuando se accede a la nueva opción del menú.~~
 <br>
