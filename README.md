@@ -8,7 +8,7 @@ Repositorio para la tarea de la materia PWD
 <br> 
 ✅ ~~Incluir Bootstrap y JQuery utilizando CDN.~~
 <br>
-⬜️ Crear una o varias carpetas para alojar archivos locales
+✅ ~~Crear una o varias carpetas para alojar archivos locales~~P
 <br>
 ✅ ~~Poner un logo en el menú.~~
 <br>
