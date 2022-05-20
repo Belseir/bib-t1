@@ -28,7 +28,7 @@ if ($_FILES["fileToUpload"]["size"] > 5000000) {
 }
 // Allow certain file formats
 if($imageFileType != "pdf" && $imageFileType != "doc" && $imageFileType != "docx"
-&& $imageFileType != "txt" ) {
+&& $imageFileType != "txt" && $imageFileType != "mp4" && $imageFileType != "mp3" ) {
     echo "Este tipo de archivo no esta permitido.";
     $uploadOk = 0;
 }
@@ -43,4 +43,3 @@ if ($uploadOk == 0) {
         echo "Sorry, there was an error uploading your file.";
     }
 }
-?>
