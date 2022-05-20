@@ -18,7 +18,7 @@ Repositorio para la tarea de la materia PWD
 <br>
 ✅ ~~Agregar al menú de acceso público, una nueva opción (Ayuda), y una nueva categoría de carteles(Ayuda) que solo se cargan cuando se accede a la nueva opción del menú.~~
 <br>
-⬜️ En la sección de publicaciones digitales ya existente agregar la posibilidad de vista previa para material de distinto tipo como ser audios , videos.
+✅ ~~En la sección de publicaciones digitales ya existente agregar la posibilidad de vista previa para material de distinto tipo como ser audios , videos.~~
 <br>
 ⬜️ Agregar en la pantalla del administrador (dentro del menú principal) un indicador en tiempo real de los usuarios que en ese momento hayan iniciado sesión en el sitio (utilizar websockets).
 <br>
