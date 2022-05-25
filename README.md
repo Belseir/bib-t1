@@ -20,7 +20,7 @@ Repositorio para la tarea de la materia PWD
 <br>
 ✅ ~~En la sección de publicaciones digitales ya existente agregar la posibilidad de vista previa para material de distinto tipo como ser audios , videos.~~
 <br>
-⬜️ Agregar en la pantalla del administrador (dentro del menú principal) un indicador en tiempo real de los usuarios que en ese momento hayan iniciado sesión en el sitio (utilizar websockets).
+✅ ~~Agregar en la pantalla del administrador (dentro del menú principal) un indicador en tiempo real de los usuarios que en ese momento hayan iniciado sesión en el sitio (utilizar websockets).~~
 <br>
 ✅ ~~Agregar la opción de material impreso (libros) y la posibilidad de controlar y administrar los prestamos que se realizan a los socios de la biblioteca. Para ello crear las tablas necesarias en la base de datos ya existente y las nuevas librerías de código , heredando en la medida que sea posible las clases existentes.~~
 <br>

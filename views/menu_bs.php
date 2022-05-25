@@ -16,6 +16,7 @@ session_start();
   <script src="../public/js/funciones_gral.js"></script>
   <link rel="stylesheet" href="../public/css/style_chat.css" media="all" />
   <link rel="stylesheet" href="../public/css/cust.css">
+  <script src="../public/js/websockets.js" />
 
 
   <script>
@@ -80,6 +81,10 @@ session_start();
         <li><a href="ayuda.php">Ayuda</a></li>
 
         <?php
+        if (isset($_SESSION['username'])) {
+          echo '<script>init()</script>';
+        }
+
         if (isset($_SESSION['username']) && $_SESSION['rol'] == 'administrador') {
           echo '<li><a href="abm_p.php">Usuarios</a></li>';
           echo '<li><a href="abm_c.php">Carteles</a></li>';
@@ -93,6 +98,7 @@ session_start();
 
         <?php
         if (isset($_SESSION['username'])) {
+          echo ' <li>Online Users: <span id="user-count">0</span></li>';
           echo ' <li class="navbar-brand">' . $_SESSION['rol'] . ' : ' . $_SESSION['username'] . '</li>';
         }
         ?>

@@ -81,6 +81,7 @@ $(document).ready(function () {
 
   //funcion para destruir la sesion iniciada
   $("#sessionKiller").click(function () {
+    websocket.quit();
     $("#timer").fadeIn(300);
     $("#alertBoxes").html('<div class="box-success"></div>');
     $(".box-success").hide(0).html("Espera un momento");
