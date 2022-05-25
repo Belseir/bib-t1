@@ -1,7 +1,7 @@
 <br>
 <?php
 
-include("../libreria/motor.php");
+include_once("libreria/conexion.php");
 
 function formatDate($date)
 {
@@ -9,7 +9,8 @@ function formatDate($date)
 }
 
 $query = "SELECT * FROM ( SELECT * FROM chat order by id DESC LIMIT 3) sub order by id ASC";
-$run = $con->query($query);
+$con = new Conexion();
+$run = $con->db->query($query);
 while ($row = $run->fetch_array()) :
 ?>
 

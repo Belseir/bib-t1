@@ -1,5 +1,4 @@
 <?php
-include_once("../../libreria/motor.php");
 include_once("../../libreria/libro_d.php");
 
 $datos = new Libro_d();
@@ -32,7 +31,7 @@ if (!empty($_POST)) {
 		$libro_d->materia = $_POST['txtMateria'];
 		$libro_d->comentario = $_POST['txtComentario'];
 		$libro_d->archivo = $_POST['txtArchivo'];
-		$libro_d->guardar($objConexion->enlace);
+		$libro_d->guardar();
 	}
 }
 ?>

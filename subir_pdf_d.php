@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_FILES["fileToUpload"]["type"
 	// Allow certain file formats
 	if (
 		$imageFileType != "pdf" && $imageFileType != "txt" && $imageFileType != "docx"
-		&& $imageFileType != "doc"
+		&& $imageFileType != "doc" && $imageFileType != "mp4" && $imageFileType != "mp3"
 	) {
 		$errors[] = "Lo sentimos, sólo archivos PDF, TXT, DOCX, DOC, MP4 y MP3  son permitidos.";
 		$uploadOk = 0;

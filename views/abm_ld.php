@@ -1,5 +1,4 @@
 <?php
-include_once("../libreria/motor.php");
 include_once("../libreria/libro_d.php");
 
 
@@ -52,7 +51,7 @@ if (!empty($_POST)) {
 		$libro_d->materia = $_POST['txtMateria'];
 		$libro_d->comentario = $_POST['txtComentario'];
 		$libro_d->archivo = $_POST['txtArchivo'];
-		$libro_d->guardar($objConexion->enlace);
+		$libro_d->guardar();
 	} else if ($operacion == 'actualizar' && isset($_GET['id_lib'])) {
 		$libro_d->autor = $_POST['txtAutor'];
 		$libro_d->titulo = $_POST['txtTitulo'];
@@ -65,14 +64,14 @@ if (!empty($_POST)) {
 		$libro_d->comentario = $_POST['txtComentario'];
 		$libro_d->archivo = $_POST['txtArchivo'];
 
-		$libro_d->actualizar($objConexion->enlace, $_GET['id_lib']);
+		$libro_d->actualizar($_GET['id_lib']);
 		header("Location: " . $_SERVER['PHP_SELF']);
 	} else if ($operacion == 'borrar' && isset($_GET['id_lib'])) {
 		$libro_d->borrar($objConexion->enlace, $_GET['id_lib']);
 	} else if ($operacion == 'edicion' && isset($_GET['id_lib'])) {
 		$id = $_GET['id_lib'];
 
-		$A = libro_d::traer_datos($objConexion->enlace, $id);
+		$A = libro_d::traer_datos($id);
 
 		$autor = $A['autor'];
 		$titulo = $A['titulo'];

@@ -1,5 +1,4 @@
 <?php
-
 include("menu_bs.php");
 echo '
 <div class="container-fluid" id="capa_T">

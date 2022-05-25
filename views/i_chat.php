@@ -13,7 +13,7 @@ echo '
 		document.getElementById(\'chat_box\').innerHTML = req.responseText;
 		} 
 		}
-		req.open(\'GET\',\'chat.php\',true); 
+		req.open(\'GET\',\'../chat.php\',true); 
 		req.send();
 		
 		}
@@ -22,7 +22,7 @@ echo '
 ';
 
 include("menu_bs.php");
-include("../libreria/motor.php");
+include_once("../libreria/conexion.php");
 
 ?>
 <?php
@@ -34,7 +34,8 @@ if (isset($_POST['send'])) {
 
 	$query = "INSERT INTO chat (name,msg) values ('$name','$message')";
 
-	$run = $con->query($query);
+	$con = new Conexion();
+	$run = $con->db->query($query);
 }
 ?>
 

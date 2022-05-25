@@ -83,6 +83,7 @@ session_start();
         if (isset($_SESSION['username']) && $_SESSION['rol'] == 'administrador') {
           echo '<li><a href="abm_p.php">Usuarios</a></li>';
           echo '<li><a href="abm_c.php">Carteles</a></li>';
+          echo '<li><a href="loans.php">Prestamos</a></li>';
         }
         ?>
 

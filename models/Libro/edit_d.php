@@ -1,5 +1,4 @@
 <?php
-include("../../libreria/motor.php");
 include_once("../../libreria/libro_d.php");
 
 
@@ -27,7 +26,7 @@ if (!empty($_POST)) {
 	if ($operacion == 'edicion' || $operacion == 'ver') {
 		$id = $_POST['id_lib'];
 
-		$A = $libro_d->traer_datos($objConexion->enlace, $id);
+		$A = $libro_d->traer_datos($id);
 
 		$autor = $A['Autor'];
 		$titulo = $A['Titulo'];
@@ -49,7 +48,7 @@ if (!empty($_POST)) {
 	} else if ($operacion == 'baja') {
 		$id = $_POST['id_lib'];
 
-		$A = $libro_d->traer_datos($objConexion->enlace, $id);
+		$A = $libro_d->traer_datos($id);
 
 		$autor = $A['Autor'];
 		$titulo = $A['Titulo'];

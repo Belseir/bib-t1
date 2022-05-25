@@ -1,10 +1,9 @@
 <?php
-include("../../libreria/motor.php");
 include_once("../../libreria/libro_d.php");
 session_start();
 $str_b =  $_POST['b'];
 
-$lib = Libro_d::buscar($objConexion->enlace, $str_b);
+$lib = Libro_d::buscar($str_b);
 
 ?>
 <?php
@@ -17,6 +16,7 @@ if (isset($lib)) {
 			<table class="tabla_edicion table table-hover">
 				<thead>
 					<tr>
+						<th>ID</th>
 						<th>Titulo</th>
 						<th>Autor</th>
 						<th>Tipo</th>
@@ -29,6 +29,7 @@ if (isset($lib)) {
 					foreach ($lib as $libros) {
 						echo "
 		   <tr>
+		   <td>$libros[id_libro]</td>
 		   <td><a href='public/libros_d/" . $libros['Archivo'] . "' target='_blank' >$libros[Titulo]</a></td>
 		   <td>$libros[Autor]</td>
 		   <td>$libros[tipo]</td>";
